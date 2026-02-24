@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod:*)",
+      "Bash(for:*)",
+      "Bash(do basename:*)",
+      "Bash(done)",
+      "Bash(bash scripts/setup_wiki.sh:*)",
+      "Bash(docker --version:*)",
+      "Bash(docker compose:*)",
+      "Bash(doctl version:*)",
+      "Bash(/Users/terenceb/.local/bin/doctl auth init:*)",
+      "Bash(/Users/terenceb/.local/bin/doctl account get)",
+      "Bash(ssh:*)",
+      "Bash(rsync:*)",
+      "Bash(scp:*)",
+      "Bash(curl:*)",
+      "WebFetch(domain:www.ci.benicia.ca.us)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:noehill.com)",
+      "WebFetch(domain:npgallery.nps.gov)",
+      "WebFetch(domain:beniciaheraldonline.com)",
+      "WebFetch(domain:ohp.parks.ca.gov)",
+      "WebFetch(domain:www.beniciamagazine.com)",
+      "WebFetch(domain:nationalregisterofhistoricplaces.com)",
+      "WebFetch(domain:www.wikidata.org)",
+      "Bash(doctl compute droplet list:*)",
+      "Bash(doctl auth init:*)",
+      "Bash(brew install:*)",
+      "Bash(tar:*)",
+      "Bash(~/bin/doctl auth init:*)",
+      "Bash(~/bin/doctl compute droplet list:*)",
+      "Bash(~/bin/doctl compute droplet get:*)"
+    ]
+  }
+}
