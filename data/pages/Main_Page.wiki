@@ -1,0 +1,60 @@
+__NOTOC__
+= Benicia Historic Homes Wiki =
+
+Welcome to the '''Benicia Historic Homes Wiki''', a community research platform documenting every historic property in downtown Benicia, California.
+
+== Find Your Home ==
+Search for your address using the search box above, or browse by street:
+
+{| class="wikitable" style="width:100%;"
+|+ '''Browse by Street'''
+|-
+| [[Category:Properties on First Street|First Street]] || [[Category:Properties on East 2nd Street|East 2nd Street]] || [[Category:Properties on West 2nd Street|West 2nd Street]]
+|-
+| [[Category:Properties on East 3rd Street|East 3rd Street]] || [[Category:Properties on West 3rd Street|West 3rd Street]] || [[Category:Properties on East 4th Street|East 4th Street]]
+|-
+| [[Category:Properties on East B Street|East B Street]] || [[Category:Properties on West B Street|West B Street]] || [[Category:Properties on East C Street|East C Street]]
+|-
+| [[Category:Properties on West C Street|West C Street]] || [[Category:Properties on East D Street|East D Street]] || [[Category:Properties on West D Street|West D Street]]
+|-
+| [[Category:Properties on East E Street|East E Street]] || [[Category:Properties on West E Street|West E Street]] || [[Category:Properties on East F Street|East F Street]]
+|-
+| [[Category:Properties on West F Street|West F Street]] || [[Category:Properties on East G Street|East G Street]] || [[Category:Properties on West G Street|West G Street]]
+|-
+| [[Category:Properties on East H Street|East H Street]] || [[Category:Properties on West H Street|West H Street]] || [[Category:Properties on East I Street|East I Street]]
+|-
+| [[Category:Properties on West I Street|West I Street]] || [[Category:Properties on East J Street|East J Street]] || [[Category:Properties on West J Street|West J Street]]
+|-
+| [[Category:Properties on East K Street|East K Street]] || [[Category:Properties on West K Street|West K Street]] || [[Category:Properties on East L Street|East L Street]]
+|}
+
+== Browse by Category ==
+* '''By Status:''' [[:Category:Landmarks|Landmarks]] | [[:Category:Contributors|Contributors]] | [[:Category:Non-Contributors|Non-Contributors]]
+* '''By Decade:''' [[:Category:Built 1847-1859|1847-1859]] | [[:Category:Built 1860-1869|1860s]] | [[:Category:Built 1870-1879|1870s]] | [[:Category:Built 1880-1889|1880s]] | [[:Category:Built 1890-1899|1890s]] | [[:Category:Built 1900-1909|1900s]] | [[:Category:Built 1910-1919|1910s]] | [[:Category:Built 1920-1929|1920s]]
+* '''By Style:''' [[:Category:Greek Revival|Greek Revival]] | [[:Category:Italianate|Italianate]] | [[:Category:Gothic Revival|Gothic Revival]] | [[:Category:Victorian|Victorian]] | [[:Category:Craftsman|Craftsman]]
+* '''[[:Category:People|People]]''' connected to Benicia properties
+* '''[[:Category:Sanborn Maps|Sanborn Fire Insurance Maps]]''' (1886, 1891, 1899, 1913, 1942)
+
+== Historical Eras ==
+* [[Mexican California and Early Settlement (1847-1853)]]
+* [[State Capital Period (1853-1854)]]
+* [[Military Town and Railroad Era (1854-1879)]]
+* [[Late Victorian Benicia (1880-1905)]]
+* [[Early 20th Century (1905-1940)]]
+* [[World War II and Arsenal Closure (1940-1964)]]
+* [[Modern Era (1964-present)]]
+
+== For Researchers ==
+* [[Project:How to Research Your Home]] - Step-by-step guide
+* [[Project:Data Sources]] - Where our information comes from
+* [[Project:Census Data Guide]] - How to transcribe census records
+* [[Project:Address Changes]] - Navigating historical address changes
+* [[Project:About]] - About this project
+
+== Wiki Statistics ==
+{{#ask:[[Category:Properties]]|format=count}} property pages |
+{{#ask:[[Category:Stub Pages]]|format=count}} stubs awaiting research |
+{{#ask:[[Category:People]]|format=count}} people documented
+
+== How to Contribute ==
+This wiki grows through community research. See [[Project:About|About]] to learn how you can help document Benicia's history.

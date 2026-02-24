@@ -1,0 +1,42 @@
+<noinclude>
+This is the data entry form for '''Person''' pages.
+</noinclude><includeonly>
+{{{info|page name=<Person Name[unique]>|create title=Create a Person Page|edit title=Edit Person Page}}}
+
+{{{for template|Person}}}
+
+{| class="formtable"
+! Person Name:
+| {{{field|Person Name|input type=text|mandatory|size=40|placeholder=e.g., John Smith}}}
+|-
+! Birth Year:
+| {{{field|Birth Year|input type=text|size=6}}}
+|-
+! Death Year:
+| {{{field|Death Year|input type=text|size=6}}}
+|-
+! Occupation:
+| {{{field|Occupation|input type=combobox|values=Farmer,Merchant,Carpenter,Blacksmith,Soldier,Sailor,Lawyer,Doctor,Minister,Teacher,Laborer,Clerk,Other}}}
+|-
+! Birthplace:
+| {{{field|Birthplace|input type=text|size=40|placeholder=e.g., New York, Ireland, Germany}}}
+|-
+! Census Years Present:
+| {{{field|Census Years Present|input type=text|size=40|placeholder=e.g., 1860, 1870, 1880}}}
+|-
+! Associated Properties:
+| {{{field|Associated Properties|input type=tokens|values from category=Properties|delimiter=,}}}
+|}
+
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>

@@ -1,0 +1,61 @@
+= Address Changes in Benicia =
+
+One of the most challenging aspects of researching Benicia's historic properties is that '''street addresses have changed over time'''. The same physical building may appear at different addresses in different historical records.
+
+== Types of Address Changes ==
+
+=== Street Renumbering ===
+Benicia's street numbers were not always consistent. Early house numbers were often sequential along a block without standardized spacing. The city later adopted a more systematic numbering scheme.
+
+'''Example:''' A building at "45 G Street" on the 1899 Sanborn map might be "123 West G Street" today.
+
+=== Directional Prefix Addition ===
+Early Benicia addresses did not use "East" and "West" prefixes. First Street serves as the dividing line. Modern addresses include the directional prefix (e.g., "West G Street" vs. "East G Street"), but older records may simply say "G Street."
+
+=== Street Name Changes ===
+Some Benicia streets have been renamed over time. When documenting a name change, note both the old and new names with the approximate date of the change.
+
+== How to Document Address Changes ==
+Every property page has a '''Historical Addresses''' section. Use this table to record all known addresses:
+
+<pre>
+{| class="wikitable"
+! Period !! Address !! Source
+|-
+| Current || 123 West G Street || Solano County GIS
+|-
+| 1913 || 45 G Street || 1913 Sanborn Map, Sheet 5
+|-
+| 1899 || 45 G Street || 1899 Sanborn Map, Sheet 5
+|-
+| 1886 || Not mapped || 1886 Sanborn (area not covered)
+|}
+</pre>
+
+== How to Identify Address Changes ==
+The best method is to compare '''Sanborn maps across years''':
+
+# Find your property on the '''most recent Sanborn map''' (1942)
+# Note its address and location relative to neighboring buildings
+# Find the '''same building''' on the next-oldest map (1913)
+# Compare the address numbers
+# Continue backward through 1899, 1891, 1886
+
+'''Key tip:''' Focus on the '''building footprint''' and its position on the block, not the address number. The building stays in the same place even when numbers change.
+
+== When You're Not Sure ==
+If you believe two different addresses refer to the same building but aren't certain:
+* Add the address to the Historical Addresses table
+* Mark it with a note: "Probable match based on building position on Sanborn maps"
+* Add the page to [[:Category:Needs Address Verification]]
+* Explain your reasoning in the Notes section
+
+'''Never delete someone else's address identification.''' If you disagree, add your alternative interpretation and explain why.
+
+== Known Renumbering Events ==
+''This section should be expanded as researchers discover when Benicia renumbered its streets.''
+
+== Resources ==
+* The '''1913 Sanborn Map''' is the best bridge between 19th century and modern addresses because it is detailed and aligns with census data.
+* '''City directories''' (when available) list addresses annually and can help pinpoint when numbers changed.
+* The '''Solano County Assessor''' may have historical APN records that link to address changes.

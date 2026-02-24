@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  mediawiki:
+    image: mediawiki:1.42
+    container_name: benicia-wiki
+    ports:
+      - "8080:80"
+    volumes:
+      - wiki_data:/var/www/html
+      - ./LocalSettings.php:/var/www/html/LocalSettings.php
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      - MEDIAWIKI_DB_HOST=db
+      - MEDIAWIKI_DB_NAME=${DB_NAME:-benicia_wiki}
+      - MEDIAWIKI_DB_USER=${DB_USER:-wiki}
+      - MEDIAWIKI_DB_PASSWORD=${DB_PASSWORD}
+    restart: unless-stopped
+
+  db:
+    image: mariadb:10.11
+    container_name: benicia-db
+    volumes:
+      - db_data:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=${DB_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${DB_NAME:-benicia_wiki}
+      - MYSQL_USER=${DB_USER:-wiki}
+      - MYSQL_PASSWORD=${DB_PASSWORD}
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+volumes:
+  wiki_data:
+  db_data:

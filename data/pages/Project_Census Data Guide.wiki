@@ -1,0 +1,119 @@
+= Census Data Guide =
+
+This guide explains how to find, transcribe, and enter US Census data for Benicia into the wiki.
+
+== Available Census Years ==
+{| class="wikitable"
+! Year !! Addresses? !! Notes !! Access
+|-
+| 1850 || No || First census to include Benicia. No street addresses recorded. || FamilySearch (free)
+|-
+| 1852 || No || California State Census (not federal). Captures Benicia near its peak as state capital. || FamilySearch
+|-
+| 1860 || No || No street addresses. || FamilySearch
+|-
+| 1870 || No || No street addresses. || FamilySearch
+|-
+| 1880 || Partial || First census with addresses, but small towns often inconsistent. || FamilySearch
+|-
+| 1890 || — || '''Destroyed by fire.''' No records survive for California. || —
+|-
+| 1900 || Yes || Good address data for Benicia. || FamilySearch
+|-
+| 1910 || Yes || Aligns with 1913 Sanborn map. Recommended starting point. || FamilySearch
+|-
+| 1920 || Yes || Post-WWI Benicia. || FamilySearch
+|-
+| 1930 || Yes || Pre-Depression snapshot. || FamilySearch
+|-
+| 1940 || Yes || Aligns with 1942 Sanborn map. Arsenal activity visible. || FamilySearch, NARA
+|-
+| 1950 || Yes || Most recently released census. || FamilySearch
+|}
+
+== How to Find Benicia Census Records ==
+# Go to [https://www.familysearch.org FamilySearch.org] (free account required)
+# Search for '''Browse All Published Collections'''
+# Select the census year
+# Navigate to: '''California > Solano County > Benicia'''
+# Browse the enumeration district pages
+
+'''Tip:''' For the 1910-1940 censuses, you can also search by name to find specific individuals.
+
+== How to Transcribe a Census Record ==
+When viewing a census page image:
+
+# '''Record exactly what you see.''' Don't correct spelling or interpret unclear handwriting.
+# '''Note the page metadata:'''
+#* Enumeration District number
+#* Page number
+#* Line number
+#* Dwelling number and Family number
+# '''Record the address''' as written on the form (if present)
+# '''Record the head of household''' name
+# '''Count household members'''
+# '''Note occupations''' - these are valuable for understanding the community
+
+== How to Enter Census Data in the Wiki ==
+Use [[Form:CensusEntry]] to create a new census record page.
+
+'''Page naming convention:''' <code>Census 1910 - 123 West G Street - Smith</code>
+
+If the census record has no address (pre-1880), use: <code>Census 1860 - ED1 Page 5 Line 12 - Smith</code>
+
+== Fields to Record ==
+{| class="wikitable"
+! Field !! Description !! Example
+|-
+| Census Year || Which census || 1910
+|-
+| Enumeration District || ED number from page header || 151
+|-
+| Page Number || Page number || 5A
+|-
+| Line Number || Line on the page || 32
+|-
+| Dwelling Number || Sequential dwelling count || 87
+|-
+| Family Number || Sequential family count || 91
+|-
+| Census Address || Address exactly as written || 123 G St
+|-
+| Modern Address || Current address if known || [[123 West G Street]]
+|-
+| Head of Household || Name of household head || [[John Smith]]
+|-
+| Household Members || Total people in household || 5
+|-
+| Source URL || FamilySearch image URL || https://www.familysearch.org/...
+|}
+
+== Linking Census Records to Properties ==
+The most valuable thing you can do is '''connect a census record to a modern property page'''. This requires:
+
+# Finding the address in the census record
+# Determining which current property that address corresponds to
+# Creating the link in the "Modern Address" field
+
+For pre-1880 censuses without addresses, this is speculative work. If you believe you can identify a household's location from context (neighbors, occupation, etc.), add it but '''clearly flag it as uncertain''' in the Notes section.
+
+== Common Challenges ==
+
+=== Handwriting ===
+Census taker handwriting varies widely. When uncertain:
+* Record your best reading
+* Add "[?]" after uncertain words
+* Note alternatives in the page's Notes section
+
+=== Name Spelling ===
+Names were often spelled phonetically by the census taker. "Schmitt" might appear as "Smith," "Smyth," or "Schmit." Create Person pages with the most common spelling and note variants.
+
+=== Address Changes ===
+The address "123 G Street" in 1910 may not be "123 West G Street" today. Benicia renumbered streets and added directional prefixes over time. See [[Project:Address Changes]] for guidance.
+
+== Recommended Workflow ==
+# '''Start with 1910''' - It has reliable addresses and aligns with the 1913 Sanborn map
+# '''Work one enumeration district page at a time''' - This keeps you organized
+# '''Create Person pages''' for heads of household as you go
+# '''Link to property pages''' when you can confidently identify the modern address
+# '''Move to 1920, then 1900, then 1930''' - Expand outward from your starting point

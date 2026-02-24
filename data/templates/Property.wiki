@@ -1,0 +1,109 @@
+<noinclude>
+This is the '''Property''' template. It is used for all property/building pages in the wiki.
+
+To create a new property page, use [[Form:Property]].
+
+'''Parameters:'''
+* Current Address - The current street address (canonical form)
+* APN - Assessor's Parcel Number
+* Block Number - City block number
+* Lot Number - Lot number within block
+* Year Built - Year of original construction
+* Year Built Approximate - Whether the year built is approximate (Yes/No)
+* Architectural Style - Architectural style (e.g., Italianate, Greek Revival)
+* Stories - Number of stories
+* Construction Material - Primary construction material (wood, brick, etc.)
+* Historic Status - Contributor, Landmark, Non-Contributor, or Not Surveyed
+* Current Use - Current building use
+* Original Use - Original building use
+* Builder - Builder name (links to Person page)
+* Architect - Architect name (links to Person page)
+* Latitude - Geographic latitude (WGS84)
+* Longitude - Geographic longitude (WGS84)
+* Survey Date - Date of most recent professional survey
+* Data Confidence - High, Medium, Low, or Stub
+
+[[Category:Templates]]
+</noinclude><includeonly>__NOTOC__
+{| class="wikitable" style="float:right; margin-left:1em; width:300px;"
+|+ style="font-size:1.1em; font-weight:bold;" | Property Information
+|-
+! Current Address
+| [[Current Address::{{{Current Address|}}}]]
+{{#if:{{{APN|}}}|{{!}}-
+! APN
+{{!}} [[APN::{{{APN|}}}]]}}
+{{#if:{{{Block Number|}}}|{{!}}-
+! Block
+{{!}} [[Block Number::{{{Block Number|}}}]]}}
+{{#if:{{{Lot Number|}}}|{{!}}-
+! Lot
+{{!}} [[Lot Number::{{{Lot Number|}}}]]}}
+{{#if:{{{Year Built|}}}|{{!}}-
+! Year Built
+{{!}} [[Year Built::{{{Year Built|}}}]]{{#ifeq:{{{Year Built Approximate|}}}|Yes| (approx.)}}}}
+{{#if:{{{Architectural Style|}}}|{{!}}-
+! Style
+{{!}} [[Architectural Style::{{{Architectural Style|}}}]]}}
+{{#if:{{{Stories|}}}|{{!}}-
+! Stories
+{{!}} [[Stories::{{{Stories|}}}]]}}
+{{#if:{{{Construction Material|}}}|{{!}}-
+! Material
+{{!}} [[Construction Material::{{{Construction Material|}}}]]}}
+{{#if:{{{Historic Status|}}}|{{!}}-
+! Historic Status
+{{!}} [[Historic Status::{{{Historic Status|}}}]]}}
+{{#if:{{{Current Use|}}}|{{!}}-
+! Current Use
+{{!}} [[Current Use::{{{Current Use|}}}]]}}
+{{#if:{{{Original Use|}}}|{{!}}-
+! Original Use
+{{!}} [[Original Use::{{{Original Use|}}}]]}}
+{{#if:{{{Builder|}}}|{{!}}-
+! Builder
+{{!}} [[Builder::{{{Builder|}}}]]}}
+{{#if:{{{Architect|}}}|{{!}}-
+! Architect
+{{!}} [[Architect::{{{Architect|}}}]]}}
+{{#if:{{{Survey Date|}}}|{{!}}-
+! Survey Date
+{{!}} [[Survey Date::{{{Survey Date|}}}]]}}
+|-
+! Data Confidence
+| [[Data Confidence::{{{Data Confidence|Stub}}}]]
+|}
+
+{{#if:{{{Latitude|}}}{{{Longitude|}}}|{{#display_map:{{{Latitude|38.049}}},{{{Longitude|-122.159}}}~{{{Current Address|}}}|zoom=17|service=leaflet|height=200px|width=300px}}
+[[Has coordinates::{{#coordinates:{{{Latitude|}}}|{{{Longitude|}}}}}]]}}
+
+{{#ifeq:{{{Year Built Approximate|}}}|Yes|[[Year Built Approximate::Yes]]|}}
+
+{{#if:{{{Year Built|}}}|
+{{#ifexpr:{{{Year Built}}} < 1860|[[Category:Built 1847-1859]]|
+{{#ifexpr:{{{Year Built}}} < 1870|[[Category:Built 1860-1869]]|
+{{#ifexpr:{{{Year Built}}} < 1880|[[Category:Built 1870-1879]]|
+{{#ifexpr:{{{Year Built}}} < 1890|[[Category:Built 1880-1889]]|
+{{#ifexpr:{{{Year Built}}} < 1900|[[Category:Built 1890-1899]]|
+{{#ifexpr:{{{Year Built}}} < 1910|[[Category:Built 1900-1909]]|
+{{#ifexpr:{{{Year Built}}} < 1920|[[Category:Built 1910-1919]]|
+{{#ifexpr:{{{Year Built}}} < 1930|[[Category:Built 1920-1929]]|
+{{#ifexpr:{{{Year Built}}} < 1940|[[Category:Built 1930-1939]]|
+{{#ifexpr:{{{Year Built}}} < 1950|[[Category:Built 1940-1949]]|
+{{#ifexpr:{{{Year Built}}} < 1960|[[Category:Built 1950-1959]]|
+{{#ifexpr:{{{Year Built}}} < 1970|[[Category:Built 1960-1969]]|
+[[Category:Built 1970-Present]]
+}}}}}}}}}}}}}}}}}}}}}}}}
+}}
+
+{{#ifeq:{{{Historic Status|}}}|Landmark|[[Category:Landmarks]]|
+{{#ifeq:{{{Historic Status|}}}|Contributor|[[Category:Contributors]]|
+{{#ifeq:{{{Historic Status|}}}|Non-Contributor|[[Category:Non-Contributors]]|
+[[Category:Not Surveyed]]
+}}}}}}
+
+{{#ifeq:{{{Data Confidence|Stub}}}|Stub|[[Category:Stub Pages]]|}}
+{{#if:{{{Architectural Style|}}}|[[Category:{{PAGENAME}} Style]]|}}
+
+[[Category:Properties]]
+</includeonly>

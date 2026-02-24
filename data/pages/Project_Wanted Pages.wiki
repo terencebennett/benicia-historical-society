@@ -1,0 +1,46 @@
+= Wanted Pages =
+
+This page lists research tasks and information gaps that volunteers can help fill.
+
+== Priority Research Tasks ==
+
+=== Census Transcription ===
+No census records have been transcribed yet. Start with the 1910 census:
+* Find Benicia enumeration districts on FamilySearch.org
+* Transcribe one page at a time using [[Form:CensusEntry]]
+* Link records to property pages when addresses match
+
+=== Historic Designation Data ===
+Property pages currently show "Not Surveyed" for historic status. To update this:
+* Contact the City of Benicia Community Development Department
+* Request the list of downtown historic buildings (Contributors and Landmarks)
+* Or download individual DPR 523 survey forms from the city website
+
+=== Sanborn Map Coverage ===
+The Sanborn map sheet pages need their coverage areas documented:
+* For each sheet in [[:Category:Sanborn Maps]], view the image at the Library of Congress
+* Record which streets and blocks appear on each sheet
+* Begin linking property pages to the sheets they appear on
+
+=== Year Built Data ===
+Most property stubs lack a "Year Built" field. Sources for this:
+* DPR 523 survey forms (most reliable)
+* Solano County Assessor records (check ca-solano.publicaccessnow.com)
+* Sanborn map comparisons (first appearance gives a terminus ante quem)
+
+== Longer-Term Projects ==
+
+=== City Directory Transcription ===
+Check the Benicia Public Library for historical city directories. These list residents and businesses by address, year by year.
+
+=== Photograph Collection ===
+Upload current photographs of historic properties to their wiki pages. Good photos show:
+* The full front facade
+* Architectural details
+* Any visible date stones or plaques
+
+=== Newspaper Research ===
+When the Benicia Herald is digitized, researchers can search for mentions of specific addresses and people.
+
+== How to Claim a Task ==
+Simply start working on it. Add your findings directly to the relevant wiki pages. There's no formal sign-up process. If you're working on a large project (like transcribing an entire census year), consider noting it on the discussion page so others know.

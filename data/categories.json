@@ -1,0 +1,404 @@
+{
+  "categories": [
+    {
+      "title": "Category:Properties",
+      "content": "All property pages in the Benicia Historic Homes Wiki.\n\n{{#ask:[[Category:Properties]]\n|?Current Address\n|?Year Built\n|?Historic Status\n|?Architectural Style\n|format=table\n|sort=Current Address\n|limit=500\n}}"
+    },
+    {
+      "title": "Category:Properties by Street",
+      "content": "Properties organized by street name.\n\n[[Category:Properties]]"
+    },
+    {
+      "title": "Category:Properties on First Street",
+      "content": "Properties located on First Street in downtown Benicia.\n\n{{#ask:[[Category:Properties]][[Current Address::~*First*]]\n|?Year Built\n|?Historic Status\n|format=table\n|sort=Current Address\n}}\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on East 2nd Street",
+      "content": "Properties located on East 2nd Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on West 2nd Street",
+      "content": "Properties located on West 2nd Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on East 3rd Street",
+      "content": "Properties located on East 3rd Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on West 3rd Street",
+      "content": "Properties located on West 3rd Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on East 4th Street",
+      "content": "Properties located on East 4th Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on West 4th Street",
+      "content": "Properties located on West 4th Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on East 5th Street",
+      "content": "Properties located on East 5th Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on West 5th Street",
+      "content": "Properties located on West 5th Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on East B Street",
+      "content": "Properties located on East B Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on West B Street",
+      "content": "Properties located on West B Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on East C Street",
+      "content": "Properties located on East C Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on West C Street",
+      "content": "Properties located on West C Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on East D Street",
+      "content": "Properties located on East D Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on West D Street",
+      "content": "Properties located on West D Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on East E Street",
+      "content": "Properties located on East E Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on West E Street",
+      "content": "Properties located on West E Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on East F Street",
+      "content": "Properties located on East F Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on West F Street",
+      "content": "Properties located on West F Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on East G Street",
+      "content": "Properties located on East G Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on West G Street",
+      "content": "Properties located on West G Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on East H Street",
+      "content": "Properties located on East H Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on West H Street",
+      "content": "Properties located on West H Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on East I Street",
+      "content": "Properties located on East I Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on West I Street",
+      "content": "Properties located on West I Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on East J Street",
+      "content": "Properties located on East J Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on West J Street",
+      "content": "Properties located on West J Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on East K Street",
+      "content": "Properties located on East K Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on West K Street",
+      "content": "Properties located on West K Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on East L Street",
+      "content": "Properties located on East L Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on West L Street",
+      "content": "Properties located on West L Street.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on East Military",
+      "content": "Properties located on East Military.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties on West Military",
+      "content": "Properties located on West Military.\n\n[[Category:Properties by Street]]"
+    },
+    {
+      "title": "Category:Properties by Historic Status",
+      "content": "Properties organized by their historic designation status.\n\n[[Category:Properties]]"
+    },
+    {
+      "title": "Category:Landmarks",
+      "content": "Properties designated as Landmarks in the Downtown Benicia Historic District.\n\nLandmarks are buildings of exceptional historical or architectural significance that have been individually designated by the City of Benicia.\n\n{{#ask:[[Category:Landmarks]]\n|?Current Address\n|?Year Built\n|?Architectural Style\n|format=table\n|sort=Current Address\n}}\n\n[[Category:Properties by Historic Status]]"
+    },
+    {
+      "title": "Category:Contributors",
+      "content": "Properties designated as Contributors to the Downtown Benicia Historic District.\n\nContributors are buildings that contribute to the historic character of the district through their age, architectural style, or historical associations.\n\n{{#ask:[[Category:Contributors]]\n|?Current Address\n|?Year Built\n|?Architectural Style\n|format=table\n|sort=Current Address\n}}\n\n[[Category:Properties by Historic Status]]"
+    },
+    {
+      "title": "Category:Non-Contributors",
+      "content": "Properties designated as Non-Contributors in the Downtown Benicia Historic District.\n\nNon-Contributors are buildings within the district boundaries that do not contribute to the historic character, typically due to construction date, alterations, or other factors.\n\n{{#ask:[[Category:Non-Contributors]]\n|?Current Address\n|?Year Built\n|format=table\n|sort=Current Address\n}}\n\n[[Category:Properties by Historic Status]]"
+    },
+    {
+      "title": "Category:Not Surveyed",
+      "content": "Properties that have not been professionally surveyed for historic significance.\n\nThese properties are within the coverage area of this wiki but have not yet received a DPR 523 survey form or other professional evaluation.\n\n[[Category:Properties by Historic Status]]"
+    },
+    {
+      "title": "Category:Properties by Decade Built",
+      "content": "Properties organized by the decade of their construction.\n\n[[Category:Properties]]"
+    },
+    {
+      "title": "Category:Built 1847-1859",
+      "content": "Properties built during Benicia's earliest period, from the founding of the town through the 1850s.\n\n[[Category:Properties by Decade Built]]"
+    },
+    {
+      "title": "Category:Built 1860-1869",
+      "content": "Properties built during the 1860s.\n\n[[Category:Properties by Decade Built]]"
+    },
+    {
+      "title": "Category:Built 1870-1879",
+      "content": "Properties built during the 1870s.\n\n[[Category:Properties by Decade Built]]"
+    },
+    {
+      "title": "Category:Built 1880-1889",
+      "content": "Properties built during the 1880s.\n\n[[Category:Properties by Decade Built]]"
+    },
+    {
+      "title": "Category:Built 1890-1899",
+      "content": "Properties built during the 1890s.\n\n[[Category:Properties by Decade Built]]"
+    },
+    {
+      "title": "Category:Built 1900-1909",
+      "content": "Properties built during the 1900s.\n\n[[Category:Properties by Decade Built]]"
+    },
+    {
+      "title": "Category:Built 1910-1919",
+      "content": "Properties built during the 1910s.\n\n[[Category:Properties by Decade Built]]"
+    },
+    {
+      "title": "Category:Built 1920-1929",
+      "content": "Properties built during the 1920s.\n\n[[Category:Properties by Decade Built]]"
+    },
+    {
+      "title": "Category:Built 1930-1939",
+      "content": "Properties built during the 1930s.\n\n[[Category:Properties by Decade Built]]"
+    },
+    {
+      "title": "Category:Built 1940-1949",
+      "content": "Properties built during the 1940s.\n\n[[Category:Properties by Decade Built]]"
+    },
+    {
+      "title": "Category:Built 1950-1959",
+      "content": "Properties built during the 1950s.\n\n[[Category:Properties by Decade Built]]"
+    },
+    {
+      "title": "Category:Built 1960-1969",
+      "content": "Properties built during the 1960s.\n\n[[Category:Properties by Decade Built]]"
+    },
+    {
+      "title": "Category:Built 1970-Present",
+      "content": "Properties built from 1970 to the present.\n\n[[Category:Properties by Decade Built]]"
+    },
+    {
+      "title": "Category:Properties by Architectural Style",
+      "content": "Properties organized by architectural style.\n\n[[Category:Properties]]"
+    },
+    {
+      "title": "Category:Greek Revival",
+      "content": "Properties built in the Greek Revival style. This was one of the earliest styles in Benicia, popular during the town's founding period.\n\n[[Category:Properties by Architectural Style]]"
+    },
+    {
+      "title": "Category:Italianate",
+      "content": "Properties built in the Italianate style. One of the most common styles in downtown Benicia.\n\n[[Category:Properties by Architectural Style]]"
+    },
+    {
+      "title": "Category:Gothic Revival",
+      "content": "Properties built in the Gothic Revival style.\n\n[[Category:Properties by Architectural Style]]"
+    },
+    {
+      "title": "Category:Victorian",
+      "content": "Properties built in Victorian styles (general category for Victorian-era buildings not specifically categorized).\n\n[[Category:Properties by Architectural Style]]"
+    },
+    {
+      "title": "Category:Queen Anne",
+      "content": "Properties built in the Queen Anne style.\n\n[[Category:Properties by Architectural Style]]"
+    },
+    {
+      "title": "Category:Colonial Revival",
+      "content": "Properties built in the Colonial Revival style.\n\n[[Category:Properties by Architectural Style]]"
+    },
+    {
+      "title": "Category:Craftsman",
+      "content": "Properties built in the Craftsman/Arts and Crafts style.\n\n[[Category:Properties by Architectural Style]]"
+    },
+    {
+      "title": "Category:Bungalow",
+      "content": "Properties built in the Bungalow style.\n\n[[Category:Properties by Architectural Style]]"
+    },
+    {
+      "title": "Category:Mission Revival",
+      "content": "Properties built in the Mission Revival style.\n\n[[Category:Properties by Architectural Style]]"
+    },
+    {
+      "title": "Category:Vernacular",
+      "content": "Properties built in the Vernacular style, meaning they do not follow a specific architectural pattern but reflect local building traditions.\n\n[[Category:Properties by Architectural Style]]"
+    },
+    {
+      "title": "Category:Commercial",
+      "content": "Properties built in commercial styles.\n\n[[Category:Properties by Architectural Style]]"
+    },
+    {
+      "title": "Category:People",
+      "content": "People connected to historic properties in Benicia.\n\n{{#ask:[[Category:People]]\n|?Occupation\n|?Birth Year\n|?Death Year\n|?Associated Properties\n|format=table\n|sort=Person Name\n}}"
+    },
+    {
+      "title": "Category:People by Occupation",
+      "content": "People organized by their occupation.\n\n[[Category:People]]"
+    },
+    {
+      "title": "Category:People by Era",
+      "content": "People organized by the historical era in which they were active in Benicia.\n\n[[Category:People]]"
+    },
+    {
+      "title": "Category:Property Owners",
+      "content": "People who owned property in historic Benicia.\n\n[[Category:People]]"
+    },
+    {
+      "title": "Category:Builders and Architects",
+      "content": "Builders and architects who designed or constructed buildings in Benicia.\n\n[[Category:People]]"
+    },
+    {
+      "title": "Category:Eras",
+      "content": "Historical eras and periods relevant to Benicia's history.\n\n{{#ask:[[Category:Eras]]\n|?Start Year\n|?End Year\n|format=table\n|sort=Start Year\n}}"
+    },
+    {
+      "title": "Category:Maps",
+      "content": "Historical maps of Benicia.\n\n[[Category:Sources]]"
+    },
+    {
+      "title": "Category:Sanborn Maps",
+      "content": "Sanborn Fire Insurance Maps of Benicia. These maps, published between 1886 and 1942, show building footprints, construction materials, and uses for every structure in the mapped area.\n\nAvailable years: [[Category:Sanborn 1886|1886]], [[Category:Sanborn 1891|1891]], [[Category:Sanborn 1899|1899]], [[Category:Sanborn 1913|1913]], [[Category:Sanborn 1942|1942]]\n\n[[Category:Maps]]"
+    },
+    {
+      "title": "Category:Sanborn 1886",
+      "content": "Sheets from the 1886 Sanborn Fire Insurance Map of Benicia.\n\n[[Category:Sanborn Maps]]"
+    },
+    {
+      "title": "Category:Sanborn 1891",
+      "content": "Sheets from the 1891 Sanborn Fire Insurance Map of Benicia.\n\n[[Category:Sanborn Maps]]"
+    },
+    {
+      "title": "Category:Sanborn 1899",
+      "content": "Sheets from the 1899 Sanborn Fire Insurance Map of Benicia.\n\n[[Category:Sanborn Maps]]"
+    },
+    {
+      "title": "Category:Sanborn 1913",
+      "content": "Sheets from the 1913 Sanborn Fire Insurance Map of Benicia.\n\n[[Category:Sanborn Maps]]"
+    },
+    {
+      "title": "Category:Sanborn 1942",
+      "content": "Sheets from the 1942 Sanborn Fire Insurance Map of Benicia.\n\n[[Category:Sanborn Maps]]"
+    },
+    {
+      "title": "Category:Census Records",
+      "content": "Transcribed census records for Benicia residents.\n\n[[Category:Sources]]"
+    },
+    {
+      "title": "Category:1850 Census",
+      "content": "Records from the 1850 US Federal Census for Benicia. Note: The 1850 census does not include street addresses.\n\n[[Category:Census Records]]"
+    },
+    {
+      "title": "Category:1852 State Census",
+      "content": "Records from the 1852 California State Census. This predates the 1860 federal census and captures Benicia when it was the state capital (1853-1854).\n\n[[Category:Census Records]]"
+    },
+    {
+      "title": "Category:1860 Census",
+      "content": "Records from the 1860 US Federal Census for Benicia. Note: The 1860 census does not include street addresses.\n\n[[Category:Census Records]]"
+    },
+    {
+      "title": "Category:1870 Census",
+      "content": "Records from the 1870 US Federal Census for Benicia. Note: The 1870 census does not include street addresses.\n\n[[Category:Census Records]]"
+    },
+    {
+      "title": "Category:1880 Census",
+      "content": "Records from the 1880 US Federal Census for Benicia. The 1880 census was the first to include street addresses, though coverage in small towns like Benicia was inconsistent.\n\n[[Category:Census Records]]"
+    },
+    {
+      "title": "Category:1900 Census",
+      "content": "Records from the 1900 US Federal Census for Benicia.\n\nNote: The 1890 census was destroyed by fire. No records survive for California.\n\n[[Category:Census Records]]"
+    },
+    {
+      "title": "Category:1910 Census",
+      "content": "Records from the 1910 US Federal Census for Benicia. This census aligns well with the 1913 Sanborn map.\n\n[[Category:Census Records]]"
+    },
+    {
+      "title": "Category:1920 Census",
+      "content": "Records from the 1920 US Federal Census for Benicia.\n\n[[Category:Census Records]]"
+    },
+    {
+      "title": "Category:1930 Census",
+      "content": "Records from the 1930 US Federal Census for Benicia.\n\n[[Category:Census Records]]"
+    },
+    {
+      "title": "Category:1940 Census",
+      "content": "Records from the 1940 US Federal Census for Benicia. This census aligns with the 1942 Sanborn map.\n\n[[Category:Census Records]]"
+    },
+    {
+      "title": "Category:1950 Census",
+      "content": "Records from the 1950 US Federal Census for Benicia.\n\n[[Category:Census Records]]"
+    },
+    {
+      "title": "Category:Sources",
+      "content": "Source materials and citations used in this wiki."
+    },
+    {
+      "title": "Category:Primary Sources",
+      "content": "Primary source materials: census records, maps, surveys, government documents, and other original records.\n\n[[Category:Sources]]"
+    },
+    {
+      "title": "Category:Secondary Sources",
+      "content": "Secondary source materials: books, articles, and other works that interpret or analyze primary sources.\n\n[[Category:Sources]]"
+    },
+    {
+      "title": "Category:Data Quality",
+      "content": "Categories for tracking data quality and completeness across the wiki."
+    },
+    {
+      "title": "Category:Stub Pages",
+      "content": "Property pages that contain only basic address information and need additional research.\n\nThese pages were auto-generated from GIS data and contain the current address, APN, and coordinates. They are waiting for researchers to add historical information.\n\n{{#ask:[[Category:Stub Pages]]\n|?Current Address\n|?APN\n|format=table\n|sort=Current Address\n|limit=500\n}}\n\n[[Category:Data Quality]]"
+    },
+    {
+      "title": "Category:Needs Review",
+      "content": "Pages that have been flagged for review by a knowledgeable editor.\n\n[[Category:Data Quality]]"
+    },
+    {
+      "title": "Category:Needs Address Verification",
+      "content": "Pages where the address needs to be verified, typically because a historical address may not match the current address.\n\n[[Category:Data Quality]]"
+    },
+    {
+      "title": "Category:Address Change Documented",
+      "content": "Pages where a historical address change has been documented and verified.\n\n[[Category:Data Quality]]"
+    },
+    {
+      "title": "Category:Templates",
+      "content": "Templates used in this wiki for structured data entry."
+    }
+  ]
+}

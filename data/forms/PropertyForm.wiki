@@ -1,0 +1,75 @@
+<noinclude>
+This is the data entry form for '''Property''' pages.
+</noinclude><includeonly>
+{{{info|page name=<Current Address[unique]>|create title=Create a Property Page|edit title=Edit Property Page}}}
+
+{{{for template|Property}}}
+
+{| class="formtable"
+! Current Address:
+| {{{field|Current Address|input type=text|mandatory|size=40|placeholder=e.g., 123 West G Street}}}
+|-
+! APN:
+| {{{field|APN|input type=text|size=20|placeholder=e.g., 0089-112-050}}}
+|-
+! Block Number:
+| {{{field|Block Number|input type=text|size=10}}}
+|-
+! Lot Number:
+| {{{field|Lot Number|input type=text|size=10}}}
+|-
+! Year Built:
+| {{{field|Year Built|input type=text|size=6|placeholder=e.g., 1875}}}
+|-
+! Year Built Approximate:
+| {{{field|Year Built Approximate|input type=radiobutton|values=Yes,No|default=No}}}
+|-
+! Architectural Style:
+| {{{field|Architectural Style|input type=combobox|values=Greek Revival,Italianate,Gothic Revival,Victorian,Queen Anne,Colonial Revival,Craftsman,Bungalow,Mission Revival,Spanish Colonial Revival,Art Deco,Moderne,Vernacular,Commercial,Industrial,Other}}}
+|-
+! Stories:
+| {{{field|Stories|input type=text|size=4}}}
+|-
+! Construction Material:
+| {{{field|Construction Material|input type=combobox|values=Wood Frame,Brick,Stone,Adobe,Concrete,Mixed}}}
+|-
+! Historic Status:
+| {{{field|Historic Status|input type=dropdown|values=Landmark,Contributor,Non-Contributor,Not Surveyed|default=Not Surveyed}}}
+|-
+! Current Use:
+| {{{field|Current Use|input type=combobox|values=Residential,Commercial,Mixed Use,Government,Religious,Vacant,Other}}}
+|-
+! Original Use:
+| {{{field|Original Use|input type=combobox|values=Residential,Commercial,Mixed Use,Government,Religious,Hotel,Saloon,Warehouse,Other}}}
+|-
+! Builder:
+| {{{field|Builder|input type=combobox|values from category=People}}}
+|-
+! Architect:
+| {{{field|Architect|input type=combobox|values from category=People}}}
+|-
+! Latitude:
+| {{{field|Latitude|input type=text|size=12}}}
+|-
+! Longitude:
+| {{{field|Longitude|input type=text|size=12}}}
+|-
+! Survey Date:
+| {{{field|Survey Date|input type=date}}}
+|-
+! Data Confidence:
+| {{{field|Data Confidence|input type=dropdown|values=High,Medium,Low,Stub|default=Stub}}}
+|}
+
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=15}}}
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>

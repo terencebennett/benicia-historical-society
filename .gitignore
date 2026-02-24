@@ -1,0 +1,25 @@
+# Downloaded GIS data (large files)
+data/downloads/
+
+# Backups
+backups/
+
+# Generated config
+LocalSettings.generated.php
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

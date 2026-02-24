@@ -1,0 +1,73 @@
+= How to Research Your Home =
+
+This guide walks you through the process of researching the history of your property in downtown Benicia.
+
+== Step 1: Find Your Property Page ==
+Search for your current street address using the search box at the top of any wiki page. Every property in the downtown area and Arsenal has a page.
+
+If your property page says "Data Confidence: Stub," that means only basic address data exists and it's waiting for someone like you to add historical information.
+
+== Step 2: Check the Sanborn Maps ==
+The Sanborn Fire Insurance Maps are your best starting point for understanding your property's physical history.
+
+# Go to [[:Category:Sanborn Maps|Sanborn Maps]]
+# Find the sheets that cover your block
+# Compare your property across the available years: 1886, 1891, 1899, 1913, 1942
+
+'''What to look for:'''
+* When does your building first appear?
+* Has it been expanded or modified?
+* What materials was it built from?
+* What was its original use?
+* Does the address number match the current one?
+
+'''Important:''' Benicia's street numbers have changed over time. Your current address (e.g., "123 West G Street") might appear as a different number on older maps (e.g., "45 G Street"). This is normal and is valuable historical data. Record both addresses on your property page.
+
+== Step 3: Look Up Census Records ==
+Census records tell you who lived at your address and what they did for a living.
+
+# Visit [https://www.familysearch.org FamilySearch.org] (free) or [https://www.ancestry.com Ancestry.com] (subscription)
+# Search for Benicia, Solano County, California
+# Start with the '''1910 census''' (it aligns with the 1913 Sanborn map)
+# Work backward through 1900, 1880, 1870, 1860, 1850
+# Work forward through 1920, 1930, 1940, 1950
+
+'''Important notes:'''
+* Census records before 1880 do '''not''' include street addresses
+* The 1890 census was destroyed by fire; it does not exist
+* Census takers made spelling errors; try variant spellings
+
+See [[Project:Census Data Guide]] for detailed transcription instructions.
+
+== Step 4: Check the City's Historic Survey ==
+If your property is within the Downtown Historic District, it may have a DPR 523 survey form from the 2009 Historic Resources Inventory.
+
+Contact the City of Benicia Community Development Department to request a copy, or check the city's website.
+
+The survey form will tell you:
+* Designation status (Contributor, Landmark, Non-Contributor)
+* Architectural style and description
+* Known build date and builder
+* Historical significance
+
+== Step 5: Visit the Library and Museum ==
+* '''Benicia Public Library''' - Local history collection, city directories
+* '''Benicia Historical Museum''' - Photographs, documents, oral histories
+
+== Step 6: Add What You Find to the Wiki ==
+Use the property edit form to add information:
+# Click "Edit with form" on your property page
+# Fill in fields you've discovered (year built, style, etc.)
+# Update the Data Confidence level
+# Add source citations for everything
+
+For census data, use [[Form:CensusEntry|the Census Entry form]].
+
+'''Always cite your sources.''' Every fact should trace back to a specific document, map, or record.
+
+== Tips for Good Research ==
+* '''Start with what you can verify''' - Work from the most reliable sources first
+* '''Record contradictions''' - If two sources disagree, note both in the page's Notes section
+* '''Don't guess''' - If you're not sure about something, mark it as uncertain or leave it blank
+* '''Photograph your home''' - Current photos are valuable for the historical record
+* '''Talk to neighbors''' - Long-time residents may know oral history about your block

@@ -1,0 +1,46 @@
+<noinclude>
+This is the '''Source''' template. It is used for documenting source materials and citations.
+
+[[Category:Templates]]
+</noinclude><includeonly>
+{| class="wikitable" style="float:right; margin-left:1em; width:300px;"
+|+ style="font-size:1.1em; font-weight:bold;" | Source
+|-
+! Type
+| [[Source Type::{{{Source Type|}}}]]
+|-
+! Title
+| [[Source Title::{{{Source Title|{{PAGENAME}}}}}]]
+{{#if:{{{Source Date|}}}|{{!}}-
+! Date
+{{!}} [[Source Date::{{{Source Date|}}}]]}}
+{{#if:{{{Source Author|}}}|{{!}}-
+! Author
+{{!}} [[Source Author::{{{Source Author|}}}]]}}
+{{#if:{{{Source URL|}}}|{{!}}-
+! URL
+{{!}} [[Source URL::{{{Source URL|}}}]]}}
+{{#if:{{{Source Repository|}}}|{{!}}-
+! Repository
+{{!}} [[Source Repository::{{{Source Repository|}}}]]}}
+|}
+
+== Description ==
+''Describe this source and its relevance to Benicia history.''
+
+== Properties Referenced ==
+{{#ask:[[Category:Properties]][[Has source::{{PAGENAME}}]]
+|?Current Address
+|?Year Built
+|format=table
+|limit=100
+}}
+
+[[Category:Sources]]
+{{#ifeq:{{{Source Type|}}}|Census|[[Category:Primary Sources]]|
+{{#ifeq:{{{Source Type|}}}|Sanborn Map|[[Category:Primary Sources]]|
+{{#ifeq:{{{Source Type|}}}|Survey|[[Category:Primary Sources]]|
+{{#ifeq:{{{Source Type|}}}|Archive|[[Category:Primary Sources]]|
+[[Category:Secondary Sources]]
+}}}}}}}}
+</includeonly>

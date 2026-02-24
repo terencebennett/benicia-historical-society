@@ -1,0 +1,47 @@
+<noinclude>
+This is the '''SanbornSheet''' template. It is used for individual Sanborn Fire Insurance Map sheets.
+
+[[Category:Templates]]
+</noinclude><includeonly>
+{| class="wikitable" style="float:right; margin-left:1em; width:300px;"
+|+ style="font-size:1.1em; font-weight:bold;" | Sanborn Map Sheet
+|-
+! Map Year
+| [[Map Year::{{{Map Year|}}}]]
+|-
+! Sheet Number
+| [[Sheet Number::{{{Sheet Number|}}}]]
+{{#if:{{{Coverage Area|}}}|{{!}}-
+! Coverage Area
+{{!}} [[Coverage Area::{{{Coverage Area|}}}]]}}
+{{#if:{{{LOC URL|}}}|{{!}}-
+! Library of Congress
+{{!}} [{{{LOC URL|}}} View at LOC]<br/>[[LOC URL::{{{LOC URL|}}}]]}}
+|}
+
+== Description ==
+This is Sheet {{{Sheet Number|}}} from the '''{{{Map Year|}}} Sanborn Fire Insurance Map of Benicia, California'''.
+
+{{#if:{{{Coverage Area|}}}|
+'''Coverage area:''' {{{Coverage Area|}}}
+}}
+
+== Properties Shown on This Sheet ==
+{{#if:{{{Properties Shown|}}}|
+{{#arraymap:{{{Properties Shown|}}}|,|x|[[Properties Shown::x]]|, }}
+|''No properties have been linked to this sheet yet. As researchers identify buildings on this map sheet, they should be added here.''
+}}
+
+== How to Use This Map ==
+Sanborn maps show building footprints, construction materials, number of stories, and building use for the date the map was surveyed. Compare this sheet to other years to track changes over time.
+
+'''Key to Sanborn map symbols:'''
+* Yellow/buff = wood frame construction
+* Pink/red = brick construction
+* Blue = stone construction
+* Numbers inside buildings = number of stories
+* D = dwelling, S = store, Off = office
+
+[[Category:Sanborn Maps]]
+[[Category:Sanborn {{{Map Year|}}}]]
+</includeonly>

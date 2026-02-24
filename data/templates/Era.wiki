@@ -1,0 +1,42 @@
+<noinclude>
+This is the '''Era''' template. It is used for historical era/period pages.
+
+[[Category:Templates]]
+</noinclude><includeonly>
+{| class="wikitable" style="float:right; margin-left:1em; width:300px;"
+|+ style="font-size:1.1em; font-weight:bold;" | Historical Era
+|-
+! Era
+| [[Era Name::{{{Era Name|{{PAGENAME}}}}}]]
+|-
+! Period
+| [[Start Year::{{{Start Year|}}}]]–[[End Year::{{{End Year|}}}]]
+|}
+
+{{{Era Description|}}}
+
+== Properties Built During This Era ==
+{{#ask:[[Category:Properties]][[Year Built::≥{{{Start Year|}}}]][[Year Built::≤{{{End Year|}}}]]
+|?Current Address
+|?Year Built
+|?Architectural Style
+|?Historic Status
+|format=table
+|sort=Year Built
+|order=asc
+|limit=200
+}}
+
+== Key People of This Era ==
+{{#ask:[[Category:People]][[Census Years Present::~*{{{Start Year|}}}*]]
+|?Occupation
+|?Associated Properties
+|format=table
+|limit=50
+}}
+
+== Sources ==
+''Add references for this historical period.''
+
+[[Category:Eras]]
+</includeonly>

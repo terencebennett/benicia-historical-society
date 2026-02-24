@@ -1,0 +1,56 @@
+<noinclude>
+This is the data entry form for '''Census Record''' pages.
+
+See [[Project:Census Data Guide]] for instructions on how to transcribe census data.
+</noinclude><includeonly>
+{{{info|create title=Create a Census Record|edit title=Edit Census Record}}}
+
+{{{for template|CensusRecord}}}
+
+{| class="formtable"
+! Census Year:
+| {{{field|Census Year|input type=dropdown|mandatory|values=1850,1852,1860,1870,1880,1900,1910,1920,1930,1940,1950}}}
+|-
+! Enumeration District:
+| {{{field|Enumeration District|input type=text|size=10}}}
+|-
+! Page Number:
+| {{{field|Page Number|input type=text|size=6}}}
+|-
+! Line Number:
+| {{{field|Line Number|input type=text|size=6}}}
+|-
+! Dwelling Number:
+| {{{field|Dwelling Number|input type=text|size=6}}}
+|-
+! Family Number:
+| {{{field|Family Number|input type=text|size=6}}}
+|-
+! Address (as recorded in census):
+| {{{field|Census Address|input type=text|size=40|placeholder=Address exactly as written in census}}}
+|-
+! Modern Address (if known):
+| {{{field|Modern Address|input type=combobox|values from category=Properties}}}
+|-
+! Head of Household:
+| {{{field|Head of Household|input type=combobox|values from category=People}}}
+|-
+! Number of Household Members:
+| {{{field|Household Members|input type=text|size=4}}}
+|-
+! Source URL:
+| {{{field|Source URL|input type=text|size=60|placeholder=FamilySearch or other URL}}}
+|}
+
+{{{end template}}}
+
+'''Notes:'''
+
+{{{standard input|free text|rows=8}}}
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>

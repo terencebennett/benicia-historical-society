@@ -1,0 +1,60 @@
+<noinclude>
+This is the '''CensusRecord''' template. It is used for structured census data entries.
+
+To enter census data, use [[Form:CensusEntry]].
+
+[[Category:Templates]]
+</noinclude><includeonly>
+{| class="wikitable" style="float:right; margin-left:1em; width:300px;"
+|+ style="font-size:1.1em; font-weight:bold;" | Census Record
+|-
+! Census Year
+| [[Census Year::{{{Census Year|}}}]]
+{{#if:{{{Enumeration District|}}}|{{!}}-
+! Enum. District
+{{!}} [[Enumeration District::{{{Enumeration District|}}}]]}}
+{{#if:{{{Page Number|}}}|{{!}}-
+! Page
+{{!}} [[Page Number::{{{Page Number|}}}]]}}
+{{#if:{{{Line Number|}}}|{{!}}-
+! Line
+{{!}} [[Line Number::{{{Line Number|}}}]]}}
+{{#if:{{{Dwelling Number|}}}|{{!}}-
+! Dwelling #
+{{!}} [[Dwelling Number::{{{Dwelling Number|}}}]]}}
+{{#if:{{{Family Number|}}}|{{!}}-
+! Family #
+{{!}} [[Family Number::{{{Family Number|}}}]]}}
+|-
+! Address (as recorded)
+| [[Census Address::{{{Census Address|Not recorded}}}]]
+{{#if:{{{Modern Address|}}}|{{!}}-
+! Modern Address
+{{!}} [[Modern Address::{{{Modern Address|}}}]]}}
+|-
+! Head of Household
+| [[Head of Household::{{{Head of Household|}}}]]
+{{#if:{{{Household Members|}}}|{{!}}-
+! Household Size
+{{!}} [[Household Members::{{{Household Members|}}}]]}}
+{{#if:{{{Source URL|}}}|{{!}}-
+! Source
+{{!}} [{{{Source URL|}}} View Original]<br/>[[Source URL::{{{Source URL|}}}]]}}
+|}
+
+{{#ifeq:{{{Census Year|}}}|1850|
+'''Note:''' The 1850 census does not include street addresses. The address association for this record, if any, is based on researcher analysis of enumeration order and other contextual evidence.
+|}}
+{{#ifeq:{{{Census Year|}}}|1852|
+'''Note:''' This is a California State Census record, not a federal census. The state census had less standardized methodology.
+|}}
+{{#ifeq:{{{Census Year|}}}|1860|
+'''Note:''' The 1860 census does not include street addresses. The address association for this record, if any, is based on researcher analysis.
+|}}
+{{#ifeq:{{{Census Year|}}}|1870|
+'''Note:''' The 1870 census does not include street addresses. The address association for this record, if any, is based on researcher analysis.
+|}}
+
+[[Category:Census Records]]
+[[Category:{{{Census Year|}}} Census]]
+</includeonly>

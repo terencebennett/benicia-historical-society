@@ -1,0 +1,51 @@
+<noinclude>
+This is the '''Person''' template. It is used for pages about people connected to historic properties.
+
+To create a new person page, use [[Form:Person]].
+
+[[Category:Templates]]
+</noinclude><includeonly>
+{| class="wikitable" style="float:right; margin-left:1em; width:300px;"
+|+ style="font-size:1.1em; font-weight:bold;" | Person
+|-
+! Name
+| [[Person Name::{{{Person Name|{{PAGENAME}}}}}]]
+{{#if:{{{Birth Year|}}}|{{!}}-
+! Born
+{{!}} [[Birth Year::{{{Birth Year|}}}]]}}
+{{#if:{{{Death Year|}}}|{{!}}-
+! Died
+{{!}} [[Death Year::{{{Death Year|}}}]]}}
+{{#if:{{{Occupation|}}}|{{!}}-
+! Occupation
+{{!}} [[Occupation::{{{Occupation|}}}]]}}
+{{#if:{{{Birthplace|}}}|{{!}}-
+! Birthplace
+{{!}} [[Birthplace::{{{Birthplace|}}}]]}}
+{{#if:{{{Census Years Present|}}}|{{!}}-
+! Census Years
+{{!}} [[Census Years Present::{{{Census Years Present|}}}]]}}
+|}
+
+{{#if:{{{Associated Properties|}}}|
+== Associated Properties ==
+{{#arraymap:{{{Associated Properties|}}}|,|x|[[Associated Properties::x]]|, }}
+}}
+
+== Census Appearances ==
+{{#ask:[[Category:Census Records]][[Head of Household::{{PAGENAME}}]]
+|?Census Year
+|?Census Address
+|?Modern Address
+|?Household Members
+|format=table
+|sort=Census Year
+|order=asc
+}}
+
+== Sources ==
+''Add sources documenting this person's connection to Benicia.''
+
+[[Category:People]]
+{{#if:{{{Occupation|}}}|[[Category:People by Occupation]]|}}
+</includeonly>

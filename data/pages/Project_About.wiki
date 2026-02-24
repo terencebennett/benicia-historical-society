@@ -1,0 +1,60 @@
+= About the Benicia Historic Homes Wiki =
+
+== What Is This Wiki? ==
+The Benicia Historic Homes Wiki is a community research platform that documents every property in downtown Benicia, California. Our goal is to create a comprehensive, publicly accessible record of who lived where and when, what buildings looked like over time, and how the town evolved from its founding in 1847 to the present.
+
+== Coverage Area ==
+The wiki covers all properties in two areas:
+* '''Downtown Benicia''' - Everything south of Military East/Military West streets, encompassing the original town grid
+* '''Benicia Arsenal''' - The former military installation east of downtown
+
+This is intentionally broader than the official Downtown Historic District. It includes properties that may not have formal historic designation but are still part of old Benicia.
+
+== How Data Gets Into the Wiki ==
+We follow a strict data reliability hierarchy:
+
+'''Tier 1: Authoritative Government Records'''
+* Solano County GIS data (current addresses, parcel numbers, coordinates)
+* City of Benicia Historic Resources Inventory (2009 survey)
+* City of Benicia Design Guidelines (2018)
+* Benicia Historic Context Statement (2011)
+
+'''Tier 2: Federal Records'''
+* Sanborn Fire Insurance Maps (1886-1942) from the Library of Congress
+* US Census Records (1850-1950)
+* HABS Survey (1976)
+
+'''Tier 3: Secondary Sources'''
+* Published histories and architectural surveys
+
+'''Tier 4: Future Sources'''
+* Benicia Herald (when digitized)
+* City directories
+* County recorder documents
+* Museum archives
+
+== Data Quality ==
+Every property page has a '''Data Confidence''' rating:
+* '''High''' - Verified from multiple authoritative sources
+* '''Medium''' - Based on one or two reliable sources
+* '''Low''' - Based on secondary sources or unverified claims
+* '''Stub''' - Only basic address data from GIS; needs research
+
+We never fabricate data. When something is unknown, we say so.
+
+== How to Contribute ==
+# '''Create an account''' on this wiki
+# '''Find a stub page''' - Browse [[:Category:Stub Pages]] for properties that need research
+# '''Add information''' using the forms - [[Form:Property|Edit a Property]] or [[Form:CensusEntry|Add Census Data]]
+# '''Cite your sources''' - Every fact should have a source
+
+See [[Project:How to Research Your Home]] for a detailed guide.
+
+== Who Maintains This Wiki ==
+This wiki is a community project. The initial data was generated programmatically from Solano County GIS records and Library of Congress Sanborn map metadata. All subsequent research is contributed by volunteers.
+
+== Technical Details ==
+* Platform: MediaWiki with Semantic MediaWiki
+* Data model: Structured properties, people, census records, map references
+* All data is exportable as JSON, XML, or SQL backup
+* Source code and setup scripts are available in the project repository

@@ -1,0 +1,96 @@
+= Data Sources =
+
+This page documents every data source used in the Benicia Historic Homes Wiki, organized by reliability tier.
+
+== Tier 1: Authoritative Government Records ==
+
+=== 1a. Solano County GIS Data ===
+* '''Source:''' Solano County ReGIS (regis.solanocounty.com)
+* '''What it provides:''' Current addresses, Assessor's Parcel Numbers (APNs), geographic coordinates, parcel boundaries
+* '''Format:''' Shapefile (SHP/DBF/PRJ/SHX)
+* '''Update frequency:''' Monthly
+* '''Reliability:''' Very high for current addresses
+* '''How we use it:''' This is the foundation layer. Every property page in the wiki was initially created from this data. It tells us what exists today at each address.
+* '''Limitations:''' Contains current data only. Does not include historical information, build dates, or architectural details.
+
+=== 1b. City of Benicia Historic Resources Inventory (2009) ===
+* '''Source:''' City of Benicia Community Development Department
+* '''Surveyor:''' Carol Roland, Ph.D.
+* '''What it provides:''' DPR 523 survey forms with designation status (Contributor, Landmark, Non-Contributor), architectural descriptions, build dates, historical significance
+* '''Format:''' Individual PDF files per property
+* '''Reliability:''' Very high. Professional survey using California Department of Parks and Recreation standard forms.
+* '''How we use it:''' Enriches property pages with architectural details and designation status.
+
+=== 1c. Downtown Historic District Design Guidelines (2018) ===
+* '''Source:''' City of Benicia
+* '''What it provides:''' Appendix (p. 156+) contains a compiled list of historic property addresses in the district
+* '''Reliability:''' Very high. Official city document.
+
+=== 1d. Benicia Historic Context Statement (2011) ===
+* '''Source:''' City of Benicia
+* '''What it provides:''' Thematic history by era, analysis of the Downtown Historic Overlay District, building-by-building discussions
+* '''Reliability:''' Very high. Peer-reviewed professional document.
+
+== Tier 2: Federal Records ==
+
+=== 2a. Sanborn Fire Insurance Maps ===
+* '''Source:''' Library of Congress, Geography and Map Division
+* '''Available years:''' 1886, 1891, 1899, 1913, 1942
+* '''What they provide:''' Building footprints, construction materials, stories, use, street names, house numbers, block numbers
+* '''Access:''' Free at loc.gov (pre-1926 maps are public domain)
+* '''Reliability:''' Very high for the date surveyed
+* '''Important note:''' House numbers on Sanborn maps may differ from modern addresses due to street renumbering
+
+See [[:Category:Sanborn Maps]] for the complete index.
+
+=== 2b. US Census Records ===
+* '''Source:''' National Archives; accessible via FamilySearch.org (free) and Ancestry.com (subscription)
+* '''Available years:''' 1850, 1860, 1870, 1880, 1900, 1910, 1920, 1930, 1940, 1950
+* '''Missing:''' 1890 (destroyed by fire)
+* '''Street addresses:''' Not recorded before 1880
+* '''Reliability:''' High, but census takers made errors
+
+See [[Project:Census Data Guide]] for how to transcribe census data.
+
+=== 2c. California State Census (1852) ===
+* '''Source:''' California State Library; FamilySearch
+* '''Significance:''' Captures Benicia just before it became state capital
+* '''Reliability:''' Moderate
+
+=== 2d. HABS Survey (1976) ===
+* '''Source:''' Library of Congress, Prints and Photographs Division
+* '''What it provides:''' Measured drawings, photographs, written documentation of historic buildings
+* '''Reliability:''' Very high
+
+== Tier 3: Secondary Sources ==
+
+=== 3a. Richard Dillon, "Great Expectations" ===
+* Comprehensive Benicia city history
+* Good for narrative context
+
+=== 3b. Robert Bruegmann, "Benicia: Portrait of an Early California Town" (1980) ===
+* Based on the 1976 HABS survey
+* Detailed architectural analysis
+
+=== 3c. Woodbridge & Cannon, "Downtown Historic Conservation Plan" (1990) ===
+* Original conservation plan with building-by-building descriptions
+
+=== 3d. 1986 Benicia Historic Inventory ===
+* Earlier inventory, useful for tracking changes over time
+
+== Tier 4: Future Sources (Designed For, Not Yet Integrated) ==
+
+=== 4a. Benicia Herald ===
+* Currently being digitized
+* Will provide dated references to addresses, people, events
+
+=== 4b. City Directories ===
+* Historical resident/business listings by address
+* Check Benicia Public Library for holdings
+
+=== 4c. Solano County Recorder's Office ===
+* Deed records, vital records
+
+=== 4d. Benicia Historical Museum Archives ===
+* Photographs, documents, oral histories
+* Not digitized; requires in-person research
