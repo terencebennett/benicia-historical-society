@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benicia Tile Matcher</title>
+  <meta name="description" content="Match Guillermo Granizo's 28 historical tiles to their locations along First Street in Benicia, CA">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="css/styles.css?v=4">
+</head>
+<body>
+  <!-- ============ WELCOME SCREEN ============ -->
+  <div id="screen-welcome" class="screen active">
+    <div class="welcome-content">
+      <div class="welcome-header">
+        <h1 class="welcome-title">Benicia<br>Tile Matcher</h1>
+        <p class="welcome-subtitle">Match Guillermo Granizo's 28 historical tiles to their locations along First Street</p>
+      </div>
+
+      <div class="welcome-preview">
+        <div class="preview-tiles">
+          <img src="images/tiles/18-state-capitol.jpg" alt="State Capitol tile" class="preview-tile">
+          <img src="images/tiles/14-jack-london.jpg" alt="Jack London tile" class="preview-tile">
+          <img src="images/tiles/21-the-solano.jpg" alt="The Solano tile" class="preview-tile">
+        </div>
+      </div>
+
+      <div class="welcome-description">
+        <p>Test your knowledge of Benicia's rich history! You'll see a tile and need to find its correct location on the map. Learn fascinating facts about each tile along the way.</p>
+      </div>
+
+      <button id="btn-start" class="btn btn-primary btn-large">Start Game</button>
+
+      <a href="https://beniciahistory.org" target="_blank" rel="noopener" class="welcome-credit">
+        Tiles by Guillermo Granizo &middot; Benicia Historical Society
+      </a>
+    </div>
+  </div>
+
+  <!-- ============ GAME SCREEN ============ -->
+  <div id="screen-game" class="screen">
+    <div class="game-layout">
+      <!-- HUD Bar -->
+      <div class="hud">
+        <div class="hud-item">
+          <span class="hud-label">Score</span>
+          <span class="hud-value" id="hud-score">0</span>
+        </div>
+        <div class="hud-item hud-streak-container">
+          <span class="hud-label">Streak</span>
+          <span class="hud-value" id="hud-streak"></span>
+        </div>
+        <div class="hud-item">
+          <span class="hud-label">Progress</span>
+          <span class="hud-value" id="hud-progress">0 / 28</span>
+        </div>
+      </div>
+
+      <!-- Progress bar -->
+      <div class="progress-bar-track">
+        <div class="progress-bar-fill" id="hud-progress-bar"></div>
+      </div>
+
+      <!-- Main game area -->
+      <div class="game-main">
+        <!-- Tile card -->
+        <div class="tile-card slide-in">
+          <div class="tile-card-header">
+            <span class="tile-number" id="tile-number" style="display:none">#1</span>
+            <span class="tile-instruction">Find this tile on the map!</span>
+          </div>
+          <div class="tile-image-wrapper">
+            <img id="tile-image" src="" alt="" class="tile-image">
+          </div>
+          <h2 class="tile-name" id="tile-name"></h2>
+        </div>
+
+        <!-- Hint area -->
+        <div id="hint-area" class="hint-area">
+          <span class="hint-icon">&#128269;</span>
+          <span id="hint-text" class="hint-text"></span>
+        </div>
+
+        <!-- Map -->
+        <div class="map-wrapper">
+          <div id="map-container" class="map-container"></div>
+          <p class="map-help">Click a numbered circle to place this tile</p>
+          <p class="map-help">Need help? Look up tile location at <a href="https://beniciahistory.org/First-Street-Tiles" target="_blank" rel="noopener">BeniciaHistory.org</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fact Modal -->
+    <div id="fact-modal" class="fact-modal">
+      <div class="fact-modal-content">
+        <div class="fact-header">
+          <img id="fact-image" src="" alt="" class="fact-image">
+          <div class="fact-title-area">
+            <h3 id="fact-name" class="fact-name"></h3>
+            <p id="fact-location" class="fact-location"></p>
+            <p id="fact-points" class="fact-points"></p>
+          </div>
+        </div>
+        <div class="fact-body">
+          <p id="fact-text" class="fact-text"></p>
+          <a id="fact-learn-more" href="#" target="_blank" rel="noopener" class="fact-learn-more">Learn more at beniciahistory.org &rarr;</a>
+        </div>
+        <button id="fact-next-btn" class="btn btn-primary">Next Tile &rarr;</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ RESULTS SCREEN ============ -->
+  <div id="screen-results" class="screen">
+    <div class="results-content">
+      <div class="results-grade">
+        <span class="grade-emoji" id="result-grade-emoji"></span>
+        <h2 class="grade-name" id="result-grade-name"></h2>
+      </div>
+
+      <div class="results-stats">
+        <div class="stat-card">
+          <span class="stat-value" id="result-score">0</span>
+          <span class="stat-label">Final Score</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-value" id="result-accuracy">0%</span>
+          <span class="stat-label">Accuracy</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-value" id="result-streak">0</span>
+          <span class="stat-label">Best Streak</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-value" id="result-time">0:00</span>
+          <span class="stat-label">Time</span>
+        </div>
+        <div class="stat-card stat-card-wide">
+          <span class="stat-value" id="result-first-tries">0 / 28</span>
+          <span class="stat-label">First-Try Matches</span>
+        </div>
+      </div>
+
+      <div class="results-actions">
+        <button id="btn-play-again" class="btn btn-primary btn-large">Play Again</button>
+        <button id="btn-share" class="btn btn-secondary">Share Score</button>
+        <a href="https://beniciahistory.org" target="_blank" rel="noopener" class="btn btn-outline">Explore All Tiles</a>
+      </div>
+
+      <p class="results-credit">
+        28 historical tiles by <strong>Guillermo Granizo</strong> along First Street, Benicia, CA<br>
+        <a href="https://beniciahistory.org" target="_blank" rel="noopener">Benicia Historical Society</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Scripts (order matters: data first, then engine, leaflet, map, ui, app last) -->
+  <script src="js/data.js?v=4"></script>
+  <script src="js/game.js?v=4"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="js/map.js?v=4"></script>
+  <script src="js/ui.js?v=4"></script>
+  <script src="js/app.js?v=4"></script>
+</body>
+</html>
